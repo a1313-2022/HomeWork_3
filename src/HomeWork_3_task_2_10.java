@@ -13,18 +13,18 @@ public class HomeWork_3_task_2_10 {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Введите значение количества воды в килограммах: ");
-        double enterWaterMass = input.nextDouble();
+        double waterMass = input.nextDouble();
         System.out.println("Введите значение начальной температуры воды в градусах под цельсию: ");
-        double enterStartTemperature = input.nextDouble();
+        double initialTemperature = input.nextDouble();
         System.out.println("Введите значение конечной температуры воды в градусах под цельсию: ");
-        double enterEndTemperature = input.nextDouble();
+        double finalTemperature = input.nextDouble();
 
-        double currentEnergyJoules = enterWaterMass * (enterEndTemperature - enterStartTemperature) * 4184;
+        double currentEnergyJoules = waterMass * (finalTemperature - initialTemperature) * 4184;
 
-        System.out.println( "Количество воды составляет: " +enterWaterMass+ " килограммов"+
-                "\nНачальная температура воды составляет: " +enterStartTemperature+ " градусов под цельсию"+
-                "\nКонечная температура воды составляет: " +enterEndTemperature+ " градусов под цельсию"+
-                "\nНеобходимое количество энергии для нагрева воды в джоулях составляет " +currentEnergyJoules);
+        System.out.println( "Количество воды составляет: " +waterMass+ " килограммов"+
+                            "\nНачальная температура воды составляет: " +initialTemperature+ " градусов под цельсию"+
+                            "\nКонечная температура воды составляет: " +finalTemperature+ " градусов под цельсию"+
+                            "\nНеобходимое количество энергии для нагрева воды в джоулях составляет " +currentEnergyJoules);
         /*  end     HomeWork    09 октября 2022 года.                                                   */
     }
 }

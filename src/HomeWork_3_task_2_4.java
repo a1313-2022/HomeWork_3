@@ -10,10 +10,12 @@ public class HomeWork_3_task_2_4 {
                         в килограммы и отображает результат. Один фунт равен 0,454 килограмма.          */
 
         Scanner input = new Scanner(System.in);
+
         System.out.println("Введите значение фунтов: ");
         double pounds = input.nextDouble();
+
         double kilograms = pounds * 0.454;
-        System.out.println(pounds + " Фунтов равняется " +kilograms+ " килограммам");
+        System.out.println(pounds + " фунтов равняется " +kilograms+ " килограммам");
 
         /*  end     HomeWork    09 октября 2022 года.                                                   */
     }

@@ -11,15 +11,18 @@ public class HomeWork_3_task_2_5 {
                         чаевых и 11,5 доллара в качестве общей суммы.                                   */
 
         Scanner input = new Scanner(System.in);
+
         System.out.println("Введите значение промежуточного итога: ");
         double subtotal = input.nextDouble();
+
         System.out.println("Введите значение чаевой ставки: ");
         double gratuityRate = input.nextDouble();
 
         double gratuity = subtotal * (gratuityRate / 100);
         double total = subtotal + gratuity;
 
-        System.out.println("Чаевые составляют " + gratuity + "\nОбщая сумма составляет " + total);
+        System.out.println("Чаевые составляют " +gratuity+ "\n"+
+                           "Общая сумма составляет " +total);
 
 
         /*  end     HomeWork    09 октября 2022 года.                                                   */

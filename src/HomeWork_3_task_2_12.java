@@ -14,16 +14,16 @@ public class HomeWork_3_task_2_12 {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Введите значение скорости взлета самолета в метрах в секунду: ");
-        double enterSpeed = input.nextDouble();
+        double speed = input.nextDouble();
 
         System.out.println("Введите значение ускорения самолета в метрах в секунду: ");
-        double enterAcceleration = input.nextDouble();
+        double acceleration = input.nextDouble();
 
-        double length = Math.pow(enterSpeed, 2) / (2 * enterAcceleration);
+        double length = Math.pow(speed, 2) / (2 * acceleration);
 
         System.out.println( "Минимальная длина взлетно-посадочной полосы для взлета самолета" +
-                            " при скорости: "   +enterSpeed+
-                            " и ускорении: "    +enterAcceleration+
+                            " при скорости: "   +speed+
+                            " и ускорении: "    +acceleration+
                             " составляет: "     +length);
         /*  end     HomeWork    09 октября 2022 года.                                                   */
     }

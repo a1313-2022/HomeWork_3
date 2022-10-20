@@ -11,24 +11,24 @@ public class HomeWork_3_task_2_11 {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Введите количество лет которое должно пройти для расчета: ");
-        int enterLaterYears = input.nextInt();
+        System.out.println("Введите количество лет которое должно пройти для расчета : ");
+        int laterYears = input.nextInt();
 
         // 365 дней * 24 часа * 60 минут * 60 секунд = 31536000 секунд в году
-        int SecondsYear = 31536000;
+        int secondsYear = 31536000;
 
         // Секунды в год делим на секунды рождения
-        int birthsYear = SecondsYear / 7;
+        int birthsYear = secondsYear / 7;
 
         // Секунды в год делим на секунды смерти
-        int deathsYear = SecondsYear / 13;
+        int deathsYear = secondsYear / 13;
 
         // Секунды в год делим на секунды прибывания иммигранта
-        int immigrantsYear = SecondsYear / 45;
+        int immigrantsYear = secondsYear / 45;
 
-        int people = 312032486 + (((birthsYear) - (deathsYear) + (immigrantsYear)) * enterLaterYears);
+        int people = 312032486 + (((birthsYear) - (deathsYear) + (immigrantsYear)) * laterYears);
 
-        System.out.println( "Население через : " +enterLaterYears+ " лет составляет " +people+ " человек");
+        System.out.println( "Население через : " +laterYears+ " лет составляет " +people+ " человек");
         /*  end     HomeWork    09 октября 2022 года.                                                   */
     }
 }

@@ -15,8 +15,6 @@ public class HomeWork_3_task_2_1 {
         System.out.println("Введите значение температуры в градусах по цельсию");
         double celsius = input.nextDouble();
         double fahrenheit = 9.0 / 5 * celsius + 32;
-        // или
-        // double fahrenheit = celsius * 1.8 + 32;
 
         System.out.println("Температура в градусах под цельсию составляет " +celsius+
                            " Это значение по фаренгейту равно " +fahrenheit);

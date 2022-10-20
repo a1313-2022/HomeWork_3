@@ -12,6 +12,7 @@ public class HomeWork_3_task_2_7 {
 
         System.out.println("Введите количество минут: ");
         int enterMinutes = input.nextInt();
+
         int years = enterMinutes / 525600;
         int days = (enterMinutes % 525600) / 1440;
 

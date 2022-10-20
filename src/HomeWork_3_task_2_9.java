@@ -13,17 +13,17 @@ public class HomeWork_3_task_2_9 {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Введите значение начальной скорости v0: ");
-        double enterV0 = input.nextDouble();
+        double v0 = input.nextDouble();
         System.out.println("Введите значение конечной скорости v1: ");
-        double enterV1 = input.nextDouble();
+        double v1 = input.nextDouble();
         System.out.println("Введите значение промежутка времени t: ");
-        double enterT = input.nextDouble();
+        double t = input.nextDouble();
 
-        double average = enterV1 - enterV0 / enterT;
+        double average = v1 - v0 / t;
 
-        System.out.println( "Начальная скорость в метрах составляет: "      +enterV0+
-                            "\nКонечная скорость в метрах составляет: "     +enterV1+
-                            "\nПромежуток времени в секундах составляет: "  +enterT+
+        System.out.println( "Начальная скорость в метрах составляет: "      +v0+
+                            "\nКонечная скорость в метрах составляет: "     +v1+
+                            "\nПромежуток времени в секундах составляет: "  +t+
                             "\nСреднее ускорение составляет "               +average);
         /*  end     HomeWork    09 октября 2022 года.                                                   */
     }

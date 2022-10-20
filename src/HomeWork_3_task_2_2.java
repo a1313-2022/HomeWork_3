@@ -15,13 +15,15 @@ public class HomeWork_3_task_2_2 {
 
         System.out.println("Введите значение радиуса: ");
         double radius = input.nextDouble();
+
         System.out.println("Введите значение длины: ");
         double length = input.nextDouble();
+
         double area = radius * radius * PI;
         double volume = area * length;
 
-        System.out.println("Площадь составляет: " +area+
-                           "\nОбъём составляет: " +volume);
+        System.out.println("Площадь составляет: " +area+ "\n"+
+                           "Объём составляет: " +volume);
 
         /*  end     HomeWork    09 октября 2022 года.                                                   */
     }
